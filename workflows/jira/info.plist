@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>org.lonkar.alfred-workflows.jira</string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict>
+		<key>1EC2A7B7-FC74-4362-928A-0B7EA259AD02</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>21FEE83D-31FE-4D57-8F1B-14C69480A5F1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>21FEE83D-31FE-4D57-8F1B-14C69480A5F1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CCC6F6A7-7C5B-4A74-B6AC-BE108D6B91B9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>5063DC68-2386-4C57-A0D3-A51A65E5CB2B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C3F5B2FE-23F1-4259-837C-B7A4FACE660F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>4132AD5A-6BE0-4E32-9BE5-AF5FD85D62C0</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string>Preview</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>54870C73-CC93-4FD7-ACBB-45BD3918325D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C3F5B2FE-23F1-4259-837C-B7A4FACE660F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9B4A06B3-2CF8-4A37-AF2B-6D8FCA988B14</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C3F5B2FE-23F1-4259-837C-B7A4FACE660F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C3F5B2FE-23F1-4259-837C-B7A4FACE660F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BD73CC25-0CFE-4B2C-B547-04E0D8A1E6A4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CCC6F6A7-7C5B-4A74-B6AC-BE108D6B91B9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E8561419-6062-4477-80B1-44830AD4833B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Yogesh &lt;yogesh@lonkar.org&gt;</string>
+	<key>description</key>
+	<string>Open Jira issues, boards, backlog</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Jira</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"title":"Open Jira board","arg":"board","subtitle":"舘 {var:jira_url}\/{var:default_board}"},{"title":"Open Jira backlog - bl","arg":"bl","subtitle":"並 {var:jira_url}\/{var:default_board}"}]</string>
+				<key>keyword</key>
+				<string>jira</string>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string>{var:jira_url}/{var:default_board}</string>
+				<key>title</key>
+				<string>Default actions</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>9B4A06B3-2CF8-4A37-AF2B-6D8FCA988B14</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>_debug() {
+	1&gt;&amp;2 echo "$@"
+}
+IFS=' ' read -ra query &lt;&lt;&lt; "$1"
+case "${query[0]}" in
+  board)
+    _debug "open tooling dashboard"
+	echo -n "${default_board}"
+    ;;
+
+  bl)
+    _debug "open tooling backlog"
+	echo -n "${default_backlog}"
+    ;;
+
+  *)
+	default_project=${jira_projects%%,*}
+	ticket=$(echo -n "${query[0]}" | sed -re "s/(^[^A-Z]+)/${default_project}-\1/g")
+    _debug "open ticket ${ticket}"
+	echo -n "browse/${ticket}"
+    ;;
+esac</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>C3F5B2FE-23F1-4259-837C-B7A4FACE660F</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>jira</string>
+				<key>skipuniversalaction</key>
+				<true/>
+				<key>subtext</key>
+				<string>Open {query}</string>
+				<key>text</key>
+				<string>Jira</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>54870C73-CC93-4FD7-ACBB-45BD3918325D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{var:jira_url}/{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>BD73CC25-0CFE-4B2C-B547-04E0D8A1E6A4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alignment</key>
+				<integer>0</integer>
+				<key>backgroundcolor</key>
+				<string>#3F3F3FF7</string>
+				<key>fadespeed</key>
+				<integer>20</integer>
+				<key>fillmode</key>
+				<integer>2</integer>
+				<key>font</key>
+				<string>DejaVu Sans Mono Nerd Font Complete Mono</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>largetypetext</key>
+				<string>{query}</string>
+				<key>textcolor</key>
+				<string></string>
+				<key>wrapat</key>
+				<integer>160</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.largetype</string>
+			<key>uid</key>
+			<string>4132AD5A-6BE0-4E32-9BE5-AF5FD85D62C0</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>3</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>jira</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>1</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string> please wait...</string>
+				<key>script</key>
+				<string>set -e
+exec_path=$(./get_exec_path)
+${exec_path} --keyword jira</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>/Users/ylonkar/.yrl/alfred-suggestions</string>
+				<key>skipuniversalaction</key>
+				<true/>
+				<key>subtext</key>
+				<string>Use `jira update` to sync</string>
+				<key>title</key>
+				<string>Cached issues</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>5063DC68-2386-4C57-A0D3-A51A65E5CB2B</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"title":"Update keyword","arg":"update-suggestions\/jira","subtitle":" Fetch suggestions from {var:jira_projects}"}]</string>
+				<key>keyword</key>
+				<string>jira</string>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Update</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>1EC2A7B7-FC74-4362-928A-0B7EA259AD02</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>set -e
+exec_path=$(./get_exec_path)
+${exec_path} --keyword jira --sync</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>21FEE83D-31FE-4D57-8F1B-14C69480A5F1</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{var:msg2}</string>
+				<key>title</key>
+				<string>{var:msg1}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>E8561419-6062-4477-80B1-44830AD4833B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>delimiter</key>
+				<string>$$</string>
+				<key>discardemptyarguments</key>
+				<true/>
+				<key>outputas</key>
+				<integer>0</integer>
+				<key>trimarguments</key>
+				<true/>
+				<key>variableprefix</key>
+				<string>msg</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.split</string>
+			<key>uid</key>
+			<string>CCC6F6A7-7C5B-4A74-B6AC-BE108D6B91B9</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string># Jira workflow
+
+![workflow-example](./workflow-example.jpg)
+
+- Open issues, dashboards, backlog
+- Provides issues as a suggestions from configured jira projects
+- Plain text format preview for issues
+
+## Arguments
+
+Argument to `** jira **` keyword can be
+
+1. `board` to open default project dashboard
+2. `bl` to open default project backlog
+3. `issue-key` to open any issue from configured projects, example `DX-123`, `ABC-202`
+4. `numeric-id` to invalidate and re-fetch issues from Jira in to cache
+
+## Combinations
+
+- `⎇` + `⮐` on selected suggestion to preview the issue in plain text format, press `esc` to exit
+
+## Required fields
+
+- Jira URL to fetch issues from for suggestions &amp; preview
+- Single Jira project key or multiple comma separated project keys
+- Atlassian user &amp; token used to fetch issues. Official [documentation](https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account)
+
+### Font configuration
+
+Suggestions with informative Icons can be made using Nerdfont or Emoji's
+
+For font icons, use any of the [Nerdfonts](https://www.nerdfonts.com/font-downloads) and configure it in in the themse for `subtext`</string>
+	<key>uidata</key>
+	<dict>
+		<key>1EC2A7B7-FC74-4362-928A-0B7EA259AD02</key>
+		<dict>
+			<key>xpos</key>
+			<real>35</real>
+			<key>ypos</key>
+			<real>500</real>
+		</dict>
+		<key>21FEE83D-31FE-4D57-8F1B-14C69480A5F1</key>
+		<dict>
+			<key>note</key>
+			<string>Update keyword suggestions</string>
+			<key>xpos</key>
+			<real>440</real>
+			<key>ypos</key>
+			<real>500</real>
+		</dict>
+		<key>4132AD5A-6BE0-4E32-9BE5-AF5FD85D62C0</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>note</key>
+			<string>Show isssue details in simple text format</string>
+			<key>xpos</key>
+			<real>440</real>
+			<key>ypos</key>
+			<real>295</real>
+		</dict>
+		<key>5063DC68-2386-4C57-A0D3-A51A65E5CB2B</key>
+		<dict>
+			<key>note</key>
+			<string>Provides non-closed jira issues from projects as a suggestion to jira keyword</string>
+			<key>xpos</key>
+			<real>35</real>
+			<key>ypos</key>
+			<real>295</real>
+		</dict>
+		<key>54870C73-CC93-4FD7-ACBB-45BD3918325D</key>
+		<dict>
+			<key>xpos</key>
+			<real>35</real>
+			<key>ypos</key>
+			<real>150</real>
+		</dict>
+		<key>9B4A06B3-2CF8-4A37-AF2B-6D8FCA988B14</key>
+		<dict>
+			<key>xpos</key>
+			<real>35</real>
+			<key>ypos</key>
+			<real>15</real>
+		</dict>
+		<key>BD73CC25-0CFE-4B2C-B547-04E0D8A1E6A4</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>5</integer>
+			<key>note</key>
+			<string>In default browser</string>
+			<key>xpos</key>
+			<real>680</real>
+			<key>ypos</key>
+			<real>150</real>
+		</dict>
+		<key>C3F5B2FE-23F1-4259-837C-B7A4FACE660F</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>note</key>
+			<string>Transform keyword to jira URL</string>
+			<key>xpos</key>
+			<real>440</real>
+			<key>ypos</key>
+			<real>150</real>
+		</dict>
+		<key>CCC6F6A7-7C5B-4A74-B6AC-BE108D6B91B9</key>
+		<dict>
+			<key>xpos</key>
+			<real>600</real>
+			<key>ypos</key>
+			<real>530</real>
+		</dict>
+		<key>E8561419-6062-4477-80B1-44830AD4833B</key>
+		<dict>
+			<key>note</key>
+			<string>Notify user</string>
+			<key>xpos</key>
+			<real>680</real>
+			<key>ypos</key>
+			<real>500</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string>https://your-domain.atlassian.net</string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Used to open issues, dashboard, backlog</string>
+			<key>label</key>
+			<string>Jira URL</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>jira_url</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string>Project(s)</string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Jira project(s) keys in comma separated format, example DX, SE,CL. First key is used as prefix in case of only numeric argument is passed to keyword, example DX-45</string>
+			<key>label</key>
+			<string>Jira projects</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>jira_projects</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string>jira/software/c/projects/DX/boards/123</string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>URL context for the board that should be open on `board` argument</string>
+			<key>label</key>
+			<string>Default board</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>default_board</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string>jira/software/c/projects/DX/boards/123/backlog</string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>URL context for the backlog that should be open on `bl` argument</string>
+			<key>label</key>
+			<string>Default backlog</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>default_backlog</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>60</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Timeout in seconds for fetching issues from jira</string>
+			<key>label</key>
+			<string>Fetch timeout</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>fetch_timeout</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>none</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>Nerd Font</string>
+						<string>nerd_font</string>
+					</array>
+					<array>
+						<string>Emojis</string>
+						<string>emoji</string>
+					</array>
+					<array>
+						<string>None</string>
+						<string>none</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string>Chose one of the options to use informative icons while displaying suggestions</string>
+			<key>label</key>
+			<string>Informative Icons</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>field_icons</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string>user@domain.com</string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Atlassian user account used to fetch issues for alfred suggestions. Check official documentation</string>
+			<key>label</key>
+			<string>Atlassian user</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>atlassian_user</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string>some-secret-value</string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Atlassian user account token used to fetch issues for alfred suggestions. Check official documentation</string>
+			<key>label</key>
+			<string>Atlassian token</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>atlassian_token</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string>/usr/local/bin/alfred-suggestions</string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Set this if alfred-suggestions not avaible in PATH or to override default version</string>
+			<key>label</key>
+			<string>Path to alfred-suggestions</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>suggestions_bin</string>
+		</dict>
+	</array>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>1.0.0</string>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>

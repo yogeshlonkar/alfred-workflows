@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>org.lonkar.alfred-workflows.github</string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict>
+		<key>1FCBD0CA-F22C-47B9-B2C3-76FB5D6C6FC0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>56D0049D-D3DB-407A-B63D-B086CD03095D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>20E0C069-44B9-4B25-A630-71A97D2F70CA</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>ADD574E3-EFB7-4FFF-BD55-7D280E9F922F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>22DBFAB7-F8DE-4BCC-945A-76C111AB63A9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9EDBC1A7-C8ED-40F8-9578-9BF9B7AC213C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3E47ED8A-EA03-47A3-A482-F7581B2F1B55</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>56D0049D-D3DB-407A-B63D-B086CD03095D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>56D0049D-D3DB-407A-B63D-B086CD03095D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9EDBC1A7-C8ED-40F8-9578-9BF9B7AC213C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>5DFDCDED-377E-4F55-92AD-4F12E5733D4A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C0F25777-1921-4910-8F25-7B2334810DCA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6E4EEBD5-0AB8-4986-8EC0-1CD707F41689</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C72E2DB4-5BC4-4A73-B9E9-3A407E992136</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string>Open actions</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>3E47ED8A-EA03-47A3-A482-F7581B2F1B55</string>
+				<key>modifiers</key>
+				<integer>131072</integer>
+				<key>modifiersubtext</key>
+				<string>Open pull requests</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>56D0049D-D3DB-407A-B63D-B086CD03095D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>1FCBD0CA-F22C-47B9-B2C3-76FB5D6C6FC0</string>
+				<key>modifiers</key>
+				<integer>262144</integer>
+				<key>modifiersubtext</key>
+				<string>Open issues</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>CB6E6EDA-BCDF-4A8B-BDDF-8E9BBF9B1B41</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Open in github.dev editor</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8A110247-8078-4C52-8E85-F0870509E3BB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>22DBFAB7-F8DE-4BCC-945A-76C111AB63A9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9EDBC1A7-C8ED-40F8-9578-9BF9B7AC213C</key>
+		<array/>
+		<key>ADD574E3-EFB7-4FFF-BD55-7D280E9F922F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9EDBC1A7-C8ED-40F8-9578-9BF9B7AC213C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C0F25777-1921-4910-8F25-7B2334810DCA</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>56C783A2-CC87-4BCD-9DF8-C5B11A17B329</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C1E1DCBD-8477-4C15-AA17-FF337E55CBA3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5DFDCDED-377E-4F55-92AD-4F12E5733D4A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C72E2DB4-5BC4-4A73-B9E9-3A407E992136</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>56D0049D-D3DB-407A-B63D-B086CD03095D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CB6E6EDA-BCDF-4A8B-BDDF-8E9BBF9B1B41</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>56D0049D-D3DB-407A-B63D-B086CD03095D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Yogesh &lt;yogesh@lonkar.org&gt;</string>
+	<key>description</key>
+	<string>Open GitHub repositories</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>GitHub</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>3</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>ghy</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string> please wait...</string>
+				<key>script</key>
+				<string>set -e
+exec_path=$(./get_exec_path)
+default_owner=$(echo ${github_owners%%,*} | tr -d '[:space:]')
+${exec_path} --keyword github --gh-owner "${default_owner}"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>/Users/ylonkar/.yrl/github_suggestion</string>
+				<key>skipuniversalaction</key>
+				<true/>
+				<key>subtext</key>
+				<string>Cached</string>
+				<key>title</key>
+				<string>Your repositories</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>8A110247-8078-4C52-8E85-F0870509E3BB</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>22DBFAB7-F8DE-4BCC-945A-76C111AB63A9</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>matchmode</key>
+				<integer>1</integer>
+				<key>matchstring</key>
+				<string>^(.*)$</string>
+				<key>regexcaseinsensitive</key>
+				<false/>
+				<key>regexmultiline</key>
+				<true/>
+				<key>replacestring</key>
+				<string>.com/$1/actions</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.replace</string>
+			<key>uid</key>
+			<string>C72E2DB4-5BC4-4A73-B9E9-3A407E992136</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>matchmode</key>
+				<integer>1</integer>
+				<key>matchstring</key>
+				<string>^(.*)$ </string>
+				<key>regexcaseinsensitive</key>
+				<false/>
+				<key>regexmultiline</key>
+				<false/>
+				<key>replacestring</key>
+				<string>.com/$1/pulls</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.replace</string>
+			<key>uid</key>
+			<string>3E47ED8A-EA03-47A3-A482-F7581B2F1B55</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>gh</string>
+				<key>skipuniversalaction</key>
+				<true/>
+				<key>subtext</key>
+				<string>Open {query}</string>
+				<key>text</key>
+				<string>GitHub</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>6E4EEBD5-0AB8-4986-8EC0-1CD707F41689</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>9EDBC1A7-C8ED-40F8-9578-9BF9B7AC213C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>{query}</string>
+				<key>replacestring</key>
+				<string>https://github{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.replace</string>
+			<key>uid</key>
+			<string>56D0049D-D3DB-407A-B63D-B086CD03095D</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>matchmode</key>
+				<integer>1</integer>
+				<key>matchstring</key>
+				<string>^(.*)$</string>
+				<key>regexcaseinsensitive</key>
+				<false/>
+				<key>regexmultiline</key>
+				<false/>
+				<key>replacestring</key>
+				<string>.com/$1/issues</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.replace</string>
+			<key>uid</key>
+			<string>1FCBD0CA-F22C-47B9-B2C3-76FB5D6C6FC0</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>matchmode</key>
+				<integer>1</integer>
+				<key>matchstring</key>
+				<string>^</string>
+				<key>regexcaseinsensitive</key>
+				<false/>
+				<key>regexmultiline</key>
+				<false/>
+				<key>replacestring</key>
+				<string>.dev/</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.replace</string>
+			<key>uid</key>
+			<string>CB6E6EDA-BCDF-4A8B-BDDF-8E9BBF9B1B41</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>3</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>ghx</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string> please wait...</string>
+				<key>script</key>
+				<string>set -e
+exec_path=$(./get_exec_path)
+${exec_path} --keyword github --gh-owner xivart</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>/Users/ylonkar/.yrl/github_suggestion</string>
+				<key>skipuniversalaction</key>
+				<true/>
+				<key>subtext</key>
+				<string>Cached</string>
+				<key>title</key>
+				<string>/xivart repositories</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>20E0C069-44B9-4B25-A630-71A97D2F70CA</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>ADD574E3-EFB7-4FFF-BD55-7D280E9F922F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>set -e
+exec_path=$(./get_exec_path)
+owner=$(echo "$1" |cut -d/ -f 3)
+
+${exec_path} --sync --keyword github --gh-owner "${owner}"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>5DFDCDED-377E-4F55-92AD-4F12E5733D4A</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>gh</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>suggestions=""
+_ifs="$IFS"
+export IFS=","
+for owner in ${github_owners}; do
+  owner=$(echo $owner | tr -d '[[:space:]]')
+  suggestions+=$(cat &lt;&lt; EOB
+{
+  "uit":      "update-$owner",
+  "title":    "Update /$owner suggestions",
+  "subtitle": "\uF6D9 fetch from $owner",
+  "arg":      "update-suggestions/github/$owner",
+  "match":    "update $owner"
+}
+EOB
+)
+  suggestions+="\n"
+done
+
+export IFS="$_ifs"
+
+echo -e $suggestions | jq --slurp --compact-output '{ items: . }'</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Update</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>C1E1DCBD-8477-4C15-AA17-FF337E55CBA3</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{var:msg2}</string>
+				<key>title</key>
+				<string>{var:msg1}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>56C783A2-CC87-4BCD-9DF8-C5B11A17B329</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>delimiter</key>
+				<string>$$</string>
+				<key>discardemptyarguments</key>
+				<true/>
+				<key>outputas</key>
+				<integer>0</integer>
+				<key>trimarguments</key>
+				<true/>
+				<key>variableprefix</key>
+				<string>msg</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.split</string>
+			<key>uid</key>
+			<string>C0F25777-1921-4910-8F25-7B2334810DCA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string># GitHub workflow
+
+![workflow-example](./images/workflow-example.gif)
+
+Open GitHub repositories, actions, pull requests, issues, github.dev
+
+## Arguments
+
+Argument to `** gh **` keyword must be `owner/repository`
+
+## Combinations
+
+- `⎇` + `⮐`	open selected suggestion's GitHub Actions page
+- `⇧` + `⮐`	open selected suggestion's pull requests page
+- `⌃` + `⮐`	open selected suggestion's issues page
+- `⌘` + `⮐`	open selected suggestion's in github.dev Web IDE
+
+` ⎇ = option, ⇧ = shift, ⌃ = control, ⌘ = command `
+
+## Script Filter per owner
+
+![script-filter](./images/script-filter.jpg)
+
+You can add Script Filter per GitHub owner which will provide suggestions only for that GitHub owner
+
+To add such Script Filter
+
+1. In workflow add `Input &gt; Script Filter`
+2. Make sure the Keyword for Script Filter is `gh&lt;Prefix&gt;` example `ghx` or `ghe` so suggestions can visible even on `gh` Keyword
+3. In Script section add below script
+
+    set -e
+    exec_path=$(./get_exec_path)
+    ${exec_path} --keyword github --gh-owner &lt;GitHub-Owner&gt;
+
+4. Change `&lt;GitHub-Owner&gt;` to one of the **GitHub Owners** configured on workflow
+5. Connect Script Filter to `If update`
+![connect-script-filter](./images/connect-script-filter.jpg)
+
+### Required fields
+
+- GitHub owner names to provide repository suggestion
+- GitHub PAT is required to fetch repository names from configured GitHub Actions
+
+### Font configuration
+
+Suggestions with informative Icons can be made using Nerdfont or Emoji's
+
+For font icons, use any of the [Nerdfonts](https://www.nerdfonts.com/font-downloads) and configure it in in the themse for `subtext`</string>
+	<key>uidata</key>
+	<dict>
+		<key>1FCBD0CA-F22C-47B9-B2C3-76FB5D6C6FC0</key>
+		<dict>
+			<key>note</key>
+			<string>open issues</string>
+			<key>xpos</key>
+			<real>285</real>
+			<key>ypos</key>
+			<real>250</real>
+		</dict>
+		<key>20E0C069-44B9-4B25-A630-71A97D2F70CA</key>
+		<dict>
+			<key>note</key>
+			<string>Provides repositories from xivart org as a suggestion</string>
+			<key>xpos</key>
+			<real>40</real>
+			<key>ypos</key>
+			<real>370</real>
+		</dict>
+		<key>22DBFAB7-F8DE-4BCC-945A-76C111AB63A9</key>
+		<dict>
+			<key>xpos</key>
+			<real>440</real>
+			<key>ypos</key>
+			<real>45</real>
+		</dict>
+		<key>3E47ED8A-EA03-47A3-A482-F7581B2F1B55</key>
+		<dict>
+			<key>note</key>
+			<string>open pull requests</string>
+			<key>xpos</key>
+			<real>285</real>
+			<key>ypos</key>
+			<real>170</real>
+		</dict>
+		<key>56C783A2-CC87-4BCD-9DF8-C5B11A17B329</key>
+		<dict>
+			<key>note</key>
+			<string>Notify user</string>
+			<key>xpos</key>
+			<real>660</real>
+			<key>ypos</key>
+			<real>525</real>
+		</dict>
+		<key>56D0049D-D3DB-407A-B63D-B086CD03095D</key>
+		<dict>
+			<key>xpos</key>
+			<real>440</real>
+			<key>ypos</key>
+			<real>220</real>
+		</dict>
+		<key>5DFDCDED-377E-4F55-92AD-4F12E5733D4A</key>
+		<dict>
+			<key>note</key>
+			<string>Update keyword suggestions</string>
+			<key>xpos</key>
+			<real>420</real>
+			<key>ypos</key>
+			<real>525</real>
+		</dict>
+		<key>6E4EEBD5-0AB8-4986-8EC0-1CD707F41689</key>
+		<dict>
+			<key>note</key>
+			<string>Argument to gh keyword should be org-name/repo-name</string>
+			<key>xpos</key>
+			<real>40</real>
+			<key>ypos</key>
+			<real>190</real>
+		</dict>
+		<key>8A110247-8078-4C52-8E85-F0870509E3BB</key>
+		<dict>
+			<key>note</key>
+			<string>Provides your GitHub repositories as a suggestion</string>
+			<key>xpos</key>
+			<real>40</real>
+			<key>ypos</key>
+			<real>15</real>
+		</dict>
+		<key>9EDBC1A7-C8ED-40F8-9578-9BF9B7AC213C</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>5</integer>
+			<key>note</key>
+			<string>In default browser</string>
+			<key>xpos</key>
+			<real>660</real>
+			<key>ypos</key>
+			<real>190</real>
+		</dict>
+		<key>ADD574E3-EFB7-4FFF-BD55-7D280E9F922F</key>
+		<dict>
+			<key>xpos</key>
+			<real>440</real>
+			<key>ypos</key>
+			<real>400</real>
+		</dict>
+		<key>C0F25777-1921-4910-8F25-7B2334810DCA</key>
+		<dict>
+			<key>xpos</key>
+			<real>575</real>
+			<key>ypos</key>
+			<real>555</real>
+		</dict>
+		<key>C1E1DCBD-8477-4C15-AA17-FF337E55CBA3</key>
+		<dict>
+			<key>xpos</key>
+			<real>245</real>
+			<key>ypos</key>
+			<real>525</real>
+		</dict>
+		<key>C72E2DB4-5BC4-4A73-B9E9-3A407E992136</key>
+		<dict>
+			<key>note</key>
+			<string>open actions</string>
+			<key>xpos</key>
+			<real>285</real>
+			<key>ypos</key>
+			<real>95</real>
+		</dict>
+		<key>CB6E6EDA-BCDF-4A8B-BDDF-8E9BBF9B1B41</key>
+		<dict>
+			<key>note</key>
+			<string>open repositoru in github.dev</string>
+			<key>xpos</key>
+			<real>285</real>
+			<key>ypos</key>
+			<real>325</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string>Owner(s)</string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Owner names in comma separated format, example yogeshlonkar, apche, actions. *First owner is user for ghy</string>
+			<key>label</key>
+			<string>GitHub Owners</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>github_owners</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>An authentication token for github.com API requests</string>
+			<key>label</key>
+			<string>GitHub PAT</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>GH_TOKEN</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string>/usr/local/bin/alfred-suggestions</string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Set this if alfred-suggestions not avaible in PATH or to override default version</string>
+			<key>label</key>
+			<string>Path to alfred-suggestions</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>suggestions_bin</string>
+		</dict>
+	</array>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>1.0.0</string>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>

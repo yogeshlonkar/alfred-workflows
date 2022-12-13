@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+exec_path=$(which alfred-suggestions | grep -v 'not found')
+
+if [[ -n "${suggestions_bin}" ]]; then
+	exec_path=${suggestions_bin}
+fi
+
+if [[ -z "${exec_path}" ]]; then
+	>&2 echo "alfred-suggestions not found in PATH"
+	if [[ -z "${suggestions_bin}" ]]; then
+		>&2 echo "path to alfred-suggestions binary not set"
+	fi
+	exit 1
+fi
+
+echo $exec_path

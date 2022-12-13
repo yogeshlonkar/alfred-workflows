@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>org.lonkar.alfred-workflows.confluence</string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict>
+		<key>596A3A9B-C01A-4CE6-945A-5EF82EE8DC03</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C360DC42-2E6C-422D-A78C-5A723DBE4A11</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>731C70E7-C041-4636-BF36-0B8C794DE470</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>596A3A9B-C01A-4CE6-945A-5EF82EE8DC03</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9FD8080D-BAE6-4940-BCA6-FFB25AE2811B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F1159481-FF6C-4DF4-AA04-6EA47821B251</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>BE9C345D-AE37-4ABA-A4A3-42A78AF5FC2C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BBAC6D11-FF6D-4552-B216-99C0B0F8A423</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C360DC42-2E6C-422D-A78C-5A723DBE4A11</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>19128965-C170-49DE-A1D3-8B0C0B0F3D14</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Yogesh &lt;yogesh@lonkar.org&gt;</string>
+	<key>description</key>
+	<string>Open confluence page</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Confluence</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{var:confluence_url}/spaces/{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>BBAC6D11-FF6D-4552-B216-99C0B0F8A423</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>confluence</string>
+				<key>skipuniversalaction</key>
+				<true/>
+				<key>subtext</key>
+				<string>Open {query}</string>
+				<key>text</key>
+				<string>Confluence</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>BE9C345D-AE37-4ABA-A4A3-42A78AF5FC2C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>3</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>confluence</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string> please wait...</string>
+				<key>script</key>
+				<string>set -e
+exec_path=$(./get_exec_path)
+${exec_path} --keyword confluence</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Use `confluence update` to sync</string>
+				<key>title</key>
+				<string>Cached pages</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>9FD8080D-BAE6-4940-BCA6-FFB25AE2811B</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>F1159481-FF6C-4DF4-AA04-6EA47821B251</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>set -e
+exec_path=$(./get_exec_path)
+${exec_path} --keyword confluence --sync</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>596A3A9B-C01A-4CE6-945A-5EF82EE8DC03</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{var:msg2}</string>
+				<key>title</key>
+				<string>{var:msg1}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>19128965-C170-49DE-A1D3-8B0C0B0F3D14</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"title":"Update keyword","arg":"update-suggestions\/confluence","subtitle":" Fetch suggestions from {var:confluence_spaces} spaces in {var:confluence_url}"}]</string>
+				<key>keyword</key>
+				<string>confluence</string>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string>{var:confluence_url}</string>
+				<key>title</key>
+				<string>Update</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>731C70E7-C041-4636-BF36-0B8C794DE470</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>delimiter</key>
+				<string>$$</string>
+				<key>discardemptyarguments</key>
+				<true/>
+				<key>outputas</key>
+				<integer>0</integer>
+				<key>trimarguments</key>
+				<true/>
+				<key>variableprefix</key>
+				<string>msg</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.split</string>
+			<key>uid</key>
+			<string>C360DC42-2E6C-422D-A78C-5A723DBE4A11</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string># Jira workflow
+
+![workflow-example](./workflow-example.jpg)
+
+- Open issues, dashboards, backlog
+- Provides issues as a suggestions from configured jira projects
+- Plain text format preview for issues
+
+## Arguments
+
+Argument to `** jira **` keyword can be
+
+1. `board` to open default project dashboard
+2. `bl` to open default project backlog
+3. `issue-key` to open any issue from configured projects, example `DX-123`, `ABC-202`
+4. `numeric-id` to invalidate and re-fetch issues from Jira in to cache
+
+## Combinations
+
+- `⎇` + `⮐` on selected suggestion to preview the issue in plain text format, press `esc` to exit
+
+## Required fields
+
+- Jira URL to fetch issues from for suggestions &amp; preview
+- Single Jira project key or multiple comma separated project keys
+- Atlassian user &amp; token used to fetch issues. Official [documentation](https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account)
+
+### Font configuration
+
+Suggestions with informative Icons can be made using Nerdfont or Emoji's
+
+For font icons, use any of the [Nerdfonts](https://www.nerdfonts.com/font-downloads) and configure it in in the themse for `subtext`</string>
+	<key>uidata</key>
+	<dict>
+		<key>19128965-C170-49DE-A1D3-8B0C0B0F3D14</key>
+		<dict>
+			<key>note</key>
+			<string>Notify user</string>
+			<key>xpos</key>
+			<real>680</real>
+			<key>ypos</key>
+			<real>400</real>
+		</dict>
+		<key>596A3A9B-C01A-4CE6-945A-5EF82EE8DC03</key>
+		<dict>
+			<key>note</key>
+			<string>Update keyword suggestions</string>
+			<key>xpos</key>
+			<real>440</real>
+			<key>ypos</key>
+			<real>400</real>
+		</dict>
+		<key>731C70E7-C041-4636-BF36-0B8C794DE470</key>
+		<dict>
+			<key>xpos</key>
+			<real>60</real>
+			<key>ypos</key>
+			<real>400</real>
+		</dict>
+		<key>9FD8080D-BAE6-4940-BCA6-FFB25AE2811B</key>
+		<dict>
+			<key>note</key>
+			<string>Provides pages from SE workspace as a suggestion to bb keyword</string>
+			<key>xpos</key>
+			<real>60</real>
+			<key>ypos</key>
+			<real>215</real>
+		</dict>
+		<key>BBAC6D11-FF6D-4552-B216-99C0B0F8A423</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>5</integer>
+			<key>note</key>
+			<string>In default browser</string>
+			<key>xpos</key>
+			<real>305</real>
+			<key>ypos</key>
+			<real>40</real>
+		</dict>
+		<key>BE9C345D-AE37-4ABA-A4A3-42A78AF5FC2C</key>
+		<dict>
+			<key>note</key>
+			<string>Argument to confluence keyword can workspace key or page URL context</string>
+			<key>xpos</key>
+			<real>60</real>
+			<key>ypos</key>
+			<real>40</real>
+		</dict>
+		<key>C360DC42-2E6C-422D-A78C-5A723DBE4A11</key>
+		<dict>
+			<key>xpos</key>
+			<real>600</real>
+			<key>ypos</key>
+			<real>430</real>
+		</dict>
+		<key>F1159481-FF6C-4DF4-AA04-6EA47821B251</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>5</integer>
+			<key>note</key>
+			<string>In default browser</string>
+			<key>xpos</key>
+			<real>440</real>
+			<key>ypos</key>
+			<real>215</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string>https://your-domain.atlassian.net/wiki</string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Used to open pages, exclude trailing slash /</string>
+			<key>label</key>
+			<string>Confluence URL</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>confluence_url</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string>Space(s)</string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Confluence space(s) keys in comma separated format, example DX, SE,CL</string>
+			<key>label</key>
+			<string>Confluence Spaces</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>confluence_spaces</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string>user@domain.com</string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Atlassian user account used to fetch issues for alfred suggestions. Check official documentation</string>
+			<key>label</key>
+			<string>Atlassian user</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>atlassian_user</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string>some-secret-value</string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Atlassian user account token used to fetch issues for alfred suggestions. Check official documentation</string>
+			<key>label</key>
+			<string>Atlassian token</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>atlassian_token</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string>/usr/local/bin/alfred-suggestions</string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Set this if alfred-suggestions not avaible in PATH or to override default version</string>
+			<key>label</key>
+			<string>Path to alfred-suggestions</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>suggestions_bin</string>
+		</dict>
+	</array>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>1.0.0</string>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
