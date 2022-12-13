@@ -1,0 +1,59 @@
+
+{
+  "items": [
+    {
+      "uid": "DX-1",
+      "title": "Update alfred workflows",
+      "subtitle": " DX-1 |  In Progress |  7 hours ago |  13:19:23",
+      "arg": "DX-1",
+      "match": "Update alfred workflows",
+      "autocomplete": "DX-1",
+      "text": {
+        "copy": "https://my.atlassian.net/browse/DX-1",
+        "largetype": " Update alfred workflows\n\n DX-1 |  In Progress |  7 hours ago 13:19:23\n\n Description\n\nUpdate alfred workflows for Jira, Confluence, GitHub, Bitbucket\nWrite documentations and README.md\nTake screenshots for README.md.\n"
+      },
+      "mods": {
+        "alt": {
+          "valid": true,
+          "arg": "\uF0A9 Update alfred workflows\n\n\uF02E DX-1 | \uF058 In Progress | \uF5F5 7 hours ago 13:19:23\n\n\uEB26 Description\n\nUpdate alfred workflows for Jira, Confluence, GitHub, Bitbucket\nWrite documentations and README.md\nTake screenshots for README.md.\n",
+          "subtitle": "Preview",
+          "variables": {
+            "preview": "true"
+          }
+        }
+      }
+    },
+    {
+      "uid": "DX-2",
+      "title": "Fix tmux status bar CLI",
+      "subtitle": " DX-2 |  Backlog |  3 days ago |  11:16:04",
+      "arg": "DX-2",
+      "match": "Fix tmux status bar CLI",
+      "autocomplete": "DX-2"
+    },
+    {
+      "uid": "PE-41",
+      "title": "Configuring OIDC on AWS with GitHub Actions",
+      "subtitle": "\uF0E7 PE-41 |  Backlog |  6 days ago |  10:16:16",
+      "arg": "PE-41",
+      "match": "Configuring OIDC on AWS with GitHub Actions PE-41",
+      "autocomplete": "PE-41"
+    },
+    {
+      "uid": "DX-27",
+      "title": "Update go dependencies on alfred-workflows",
+      "subtitle": "\uF631 DX-27 |  Backlog |  1 days ago |  10:16:16",
+      "arg": "DX-27",
+      "match": "Update go dependencies on alfred-workflows DX-27",
+      "autocomplete": "DX-27"
+    },
+    {
+      "uid": "update-suggestions/jira",
+      "title": "☁️ Update keyword",
+      "subtitle": " fetch suggestions for jira",
+      "arg": "update-suggestions/jira",
+      "match": "update",
+      "autocomplete": "update-suggestions/jira"
+    }
+  ]
+}

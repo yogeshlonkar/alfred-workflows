@@ -1,0 +1,26 @@
+linters:
+  enable:
+    - goimports
+    - containedctx
+    - contextcheck
+    - dupl
+    - errorlint
+    - goconst
+    - gocritic
+    - gocyclo
+    - gofmt
+    - gomnd
+    - misspell
+    - revive
+    - unparam
+    - wrapcheck
+linters-settings:
+  goimports:
+    local-prefixes: github.com/yogeshlonkar/alfred-workflows
+  wrapcheck:
+#    ignoreSigRegexps:
+#      - '.*github.com/yogeshlonkar/alfred-workflows/.*'
+    ignorePackageGlobs:
+      - github.com/yogeshlonkar/alfred-workflows/*
+  gocyclo:
+    min-complexity: 12
